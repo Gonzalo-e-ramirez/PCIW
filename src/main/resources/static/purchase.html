@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css\purchase.css">
+    <link rel="shortcut icon" href="img\logo.png">
+    <title>Finalizar Compra</title>
+</head>
+<body>
+<!-- Inicio del menu -->
+<header>
+    <div class="ancho">
+        <div class="logo">
+            <a href="index.html"><img src="img\logo.png"></a>
+        </div>
+    </div>
+</header>
+<!-- Fin del Menu -->
+
+
+<section class="registro">
+    <form id="form">
+        <h4>Finalizar compra</h4>
+        <br>
+        <div id="usuarioData">
+            <input class="control" id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre">
+            <input class="control" id="apellido" type="text" name="apellido" placeholder="Ingrese su apellido">
+            <input class="control" id="correo" type="email" name="correo" placeholder="Ingrese su correo">
+        </div>
+        <div id="tarjetaData">
+            <input class="control" id="tarjeta" type="text" name="tajerta" placeholder="Ingrese numero de tarjeta">
+            <input class="control" id="vencimiento" type="text" name="vencimiento" placeholder="Ingrese fecha de vencimiento">
+            <input class="control" id="codigo" type="password" name="codigo" placeholder="Ingrese codigo de 3 digitos">
+        </div>
+        <a href="index.html"><input class="botons" type="submit" value="Finalizar compra" onclick="finalizar()"></a>
+    </form>
+</section>
+
+<br>
+<br>
+<br>
+<script src="js/purchase.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

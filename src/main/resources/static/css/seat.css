@@ -1,0 +1,113 @@
+/* Inicio de menu con logo*/
+header{
+    width: 100%;
+    background: #A93226;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.ancho{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+}
+.logo{
+    width: 30%;
+    height: 70px;
+    float: left;
+}
+nav{
+    width: 70%;
+    height: 70px;
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+nav ul li a:hover{
+    color: #85929E;
+}
+header div div a img{
+    width:  60px;
+    height:  60px;
+}
+/* Fin del menu con logo*/
+
+body{
+    background: #85929E;
+}
+h1{
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    background: #A93226;
+    border: 2px solid darkred;
+}
+
+#asiento {
+    height: 400px;
+    width: 700px;
+    padding-top: 20px;
+    padding-left: 60px;
+    margin-left: 100px;
+    float: left;
+    background: white;
+    border: #85929E;
+}
+
+.fila1{
+    padding-left: 100px;
+}
+.fila2{
+    padding-left: 38px;
+}
+#asiento div input{
+    height: 20px;
+    width: 20px;
+}
+
+
+aside{
+    width: 300px;
+    height: 150px;
+    padding: 30px;
+    background: #A93226;
+    float: right;
+    border: 1px solid white;
+}
+.botons{
+
+    width: 95%;
+    background: black;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.botons:hover {
+    background: grey;
+    border: 1px solid black;
+}
+
+a{
+    padding-left: 5px;
+    font-size: 20px;
+    color: white;
+}

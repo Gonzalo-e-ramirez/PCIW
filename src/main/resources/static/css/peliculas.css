@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* Inicio de menu con logo*/
+header{
+	width: 100%;
+	background: #A93226;
+	height: 70px;
+}
+
+.ancho{
+	width: 80%;
+	height: 70px;
+	margin: auto;
+}
+.logo{
+	width: 30%;
+	height: 70px;
+	float: left;
+}
+nav{
+	width: 70%;
+	height: 70px;
+	float: left;
+	text-align: right;
+	padding-top: 24px;
+	box-sizing: border-box;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+nav ul li a:hover{
+	color: #85929E;
+}
+header div div a img{
+	width:  60px;
+	height:  60px;
+}
+/* Fin del menu con logo*/
+
+body{
+	background: #85929E;
+}
+
+section{
+	padding-top: 20px;
+	padding-left: 60px;
+	float: left;
+	margin-left: 50px;
+	background: white;
+	width: 700px;
+	margin-bottom: 20px;
+}
+
+section img{
+	width:  500px;
+	height:  600px;
+	border: 1px solid black;
+	border-right: 40px;
+
+}
+
+aside{
+width: 300px;	
+height: 540px;
+padding: 30px;
+background: #A93226;
+float: right;
+border: 1px solid white;
+}
+
+H1{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	text-decoration: underline;
+}
+
+.formcompra{
+	background: #A93226;
+	padding: 30px;
+	margin: auto;
+	margin-top: 70px;
+	border-radius: 4px;
+	color: white;
+}
+
+.formcompra h4{
+	font-size: 18px;
+	margin-bottom: 1px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.formcompra select{
+	width: 95%;
+	background: black;
+	border: none;
+	padding: 4px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+
+}
+.formcompra .botons{
+
+	width: 95%;
+	background: black;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.formcompra .botons:hover {
+background: grey;
+border: 1px solid black;
+}
+
+
+/* Inicio de Footer */
+footer{
+	text-align: center;
+	width: 100%;
+	background: #A93226;
+	height: 70px;
+	padding-top: 10px;
+	float: left;
+}
+footer h2{
+color: #fff;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 25px;
+}
+ /*Fin de Footer*/

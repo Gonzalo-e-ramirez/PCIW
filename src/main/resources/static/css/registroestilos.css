@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* Inicio de menu con logo*/
+header{
+	width: 100%;
+	background: #A93226;
+	height: 70px;
+}
+
+.ancho{
+	width: 80%;
+	height: 70px;
+	margin: auto;
+}
+.logo{
+	width: 30%;
+	height: 70px;
+	float: left;
+}
+
+header div div a img{
+	width:  60px;
+	height:  60px;
+}
+/* Fin del menu con logo*/
+
+body{
+	background: #85929E;
+}
+
+.registro{
+	background: #A93226;
+	width: 400px;
+	padding: 30px;
+	margin: auto;
+	margin-top: 70px;
+	border-radius: 4px;
+	color: white;
+}
+
+.registro h4{
+	font-size: 24px;
+	margin-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.control{
+	width: 95%;
+	background: white;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid black;
+	font-size: 18px;
+}
+
+.registro p{
+	height: 40px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+}
+.registro a{
+	color: white;
+	text-decoration: none;
+	}
+.registro a:hover {
+	color: #85929E;
+}
+
+.registro .botons{
+
+	width: 95%;
+	background: black;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.registro .botons:hover {
+background: grey;
+border: 1px solid black;
+}
+
+.warnings{
+	text-align: center;
+	margin: auto;
+	color: #A93226;
+	padding-bottom: 20px;
+}
+
+
+
+
+/* Inicio de Footer*/
+
+footer{
+	text-align: center;
+	width: 100%;
+	background: #A93226;
+	height: 70px;
+	padding-top: 40px;
+}
+footer h2{
+color: #fff;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 25px;
+}
+
+/* Fin de Footer*/

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css\registroestilos.css">
+	<link rel="shortcut icon" href="img\logo.png">
+	<title>Grey Cinema - Registrarse</title>
+</head>
+<body>
+	<!-- Inicio del menu -->
+	<header>
+		<div class="ancho">
+			<div class="logo">
+				<a href="index.html"><img src="img\logo.png"></a>
+			</div>
+		</div>
+	</header>
+	<!-- Fin del Menu -->
+
+
+	<section class="registro">
+		<form id="form">
+		<h4>Registrarse</h4>
+		<br>
+		<input class="control" id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre">
+		<input class="control" id="apellido" type="text" name="apellido" placeholder="Ingrese su apellido">
+		<input class="control" id="dni" type="text" name="dni" placeholder="Ingrese su dni">
+		<input class="control" id="correo" type="email" name="correo" placeholder="Ingrese su correo">
+		<input class="control" id="user" type="text" name="usuario" placeholder="Ingrese un nombre de usuario">
+		<input class="control" id="password" type="password" name="clave" placeholder="Ingrese una clave">
+		<p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
+		<a><input class="botons" type="submit" value="registrarse" onclick="registrarUsuario()"></a>
+		<p><a href="login.html">¿Ya tienes cuenta? Accede</a></p>
+		</form>
+	</section>
+
+	<br>
+	<br>
+	<br>
+	<footer>
+		<h2>Grey Cinema - Sitio desarrollado por Gonzalo Ramirez</h2>
+	</footer>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="js/registro.js"></script>
+</body>
+</html>
